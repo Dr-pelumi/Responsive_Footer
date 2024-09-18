@@ -5,3 +5,67 @@
    font-family: "Poppins", system-ui;
    text-decoration: none;
 }
+footer{
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   background: #111;
+}
+footer .content{
+   background: red;
+   max-width: 1350px;
+   margin: auto;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+footer .content .topic{
+   color: #fff;
+   font-size: 22px;
+   font-weight: 600;
+   margin-bottom: 16px;
+}
+footer .content .middle-box{
+   padding-left: 80px;
+}
+footer .content p,a{
+   color: #fff;
+}
+.left-box, .middle-box, .right-box{
+   width: 33%;
+}
+.left-box .upper p{
+   text-align: justify;
+}
+.left-box .lower .topic{
+   margin: 24px 0px 5px 0px;
+}
+.left-box .lower i{
+   padding-right: 16px;
+}
+.middle-box a{
+   line-height: 32px;
+}
+.right-box input{
+ background: #111;
+ width: 100%;
+ height: 45px;
+ outline: none;
+ border-radius: 5px;
+ padding-left: 10px;
+ font-size: 15px;
+ border: 2px solid #222222;
+}
+.right-box button{
+   height: 40px;
+   width: 100%;
+   background: #eb2f06;
+   margin-top: 10px;
+   font-size: 15px;
+   letter-spacing: 1px;
+   border-radius: 5px;
+   border: 2px solid #eb2f06;
+
+}
